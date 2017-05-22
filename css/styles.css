@@ -29,6 +29,10 @@ img {
     width: 200px;
 }
 
+#img-github {
+    width: 15px;
+}
+
 .main-nav {
     background-color:white;
     z-index:999;
@@ -53,13 +57,12 @@ nav a {
 }
 
 .section-container {
-    height: 100%;
+    height: 900px;
     padding-top:50px;
     padding-bottom:50px;
 }
 
 #bio-section-container{
-    
     background-color: #1a1a1a;
     color: white;
 }
@@ -82,23 +85,33 @@ nav a {
     padding-top: 20px;
 }
 
+#skills-section-container {
+    background-color:#333333;
+    color:white;
+}
+
+#skills-container {
+    margin: 0 auto;
+    text-align:center;
+    max-width: 500px;
+}
+
 .skill-item {
     padding:15px;
 }
 
-#bio-container #skills p {
+#skills p {
     padding-right: 20px;
 }
 
-#bio-container #skills #skills-desc{
+#skills #skills-desc{
     font-size:12px;
 }
 
 #projects-section-container {
-    background-image: url("../img/bg.jpg");
-    background-repeat: repeat;
     background-color:#1a1a1a;
     color: white;
+    height:100%;
 }
 
 #projects-container h1{
@@ -106,8 +119,9 @@ nav a {
 }
 
 #contact-section-container {
-    background-color:#1a1a1a;
+    background-color:#333333;
     color: white;
+    height:500px;
 }
 
 #contact-container {
@@ -124,6 +138,22 @@ nav a {
 
 .contact-item span {
     padding: 10px;
+}
+
+.contact-item a {
+    color:white;
+}
+
+#footer-section-container {
+    background-color:#1a1a1a;
+    color: white;
+    height: 10%;
+}
+
+#footer-section {
+    margin: 0 auto;
+    text-align:center;
+    max-width: 500px;
 }
 
 
@@ -179,7 +209,6 @@ nav a {
             -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
             box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
             text-align:center;
-            background-color:#1a1a1a;
         }
 
             .timeline > li > .timeline-panel:before {

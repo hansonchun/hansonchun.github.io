@@ -17,7 +17,8 @@
 
         <nav class="main-nav navbar-fixed-top">
             <ul>
-                <li><a href="#bio">BIO</a></li>                    
+                <li><a href="#bio">BIO</a></li>      
+                <li><a href="#skills">SKILLS</a></li>              
                 <li><a href="#projects">PROJECTS</a></li>
                 <li><a href="#contact">CONTACT</a></li>
             </ul>
@@ -32,52 +33,58 @@
                 <h1>BIO</h1>
                 <p>Hello, I'm Hanson, a software developer based in Vancouver, B.C. I like to build things and solve problems.
                     I'm learning everyday to become a better programmer.</p>  
-                <div class="bio-section" id="skills">
-                    <h3>Skills</h3>
-                        <div class="skill-item">
-                            <h5>Java</h5>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div>
-                            </div>
-                            <p id="skills-desc">Strong understanding of Java object-oriented programming. Experienced in Android development.</p>
-                        </div>
-                        <div class="skill-item">
-                            <h5>Javascript</h5>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
-                            </div>
-                            <p id="skills-desc">Understanding of web app development, especially in AngularJS.</p>
-                        </div>
-                        <div class="skill-item">
-                            <h5>HTML/CSS</h5>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
-                            </div>
-                            <p id="skills-desc">Strong grasp of front-end web development and styling.</p>
-                        </div>
-                        <div class="skill-item">
-                            <h5>C#</h5>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%"></div>
-                            </div>
-                            <p id="skills-desc">Intermediate understanding of game sripting in C#.</p>
-                        </div>
-                        <div class="skill-item">
-                            <h5>C</h5>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
-                            </div>
-                            <p id="skills-desc">Understanding of C, classical data structures and algorithms.</p>
-                        </div>
-                        <div class="bio-section" id="education">
-                            <h3>Education</h3>
-                            <img id="img-ubc" src="img/ubc-white.png">  
-                            <p>Graduated May 2017. Bachelor of Arts in Computer Science.</p>
-                        </div>
-  
+                <br>
+                <br>
+                <br>
+                <p>Graduated May 2017. Bachelor of Arts in Computer Science.</p>
+                <img id="img-ubc" src="img/ubc-white.png">  
+                
+
+            </div>
+        </div>
+
+        <div class="section-container" id="skills-section-container">
+            <a id="skills" class="smooth"></a>
+            <div id="skills-container">
+                <h1>SKILLS</h1>
+                <div class="skill-item">
+                    <h5>Java</h5>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div>
+                    </div>
+                    <p id="skills-desc">Strong understanding of Java object-oriented programming. Experienced in Android development.</p>                        
+                </div>
+                <div class="skill-item">
+                    <h5>Javascript</h5>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
+                    </div>
+                    <p id="skills-desc">Understanding of web app development, especially in AngularJS.</p>
+                </div>
+                <div class="skill-item">
+                    <h5>HTML/CSS</h5>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
+                    </div>
+                    <p id="skills-desc">Strong grasp of front-end web development and styling.</p>
+                </div>
+                <div class="skill-item">
+                    <h5>C#</h5>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%"></div>
+                    </div>
+                    <p id="skills-desc">Intermediate understanding of game sripting in C#.</p>
+                </div>
+                <div class="skill-item">
+                    <h5>C</h5>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
+                    </div>
+                    <p id="skills-desc">Understanding of C, classical data structures and algorithms.</p>                        
                 </div>
             </div>
         </div>
+
 
         <div class="section-container" id="projects-section-container">
             <a id="projects" class="smooth"></a>    
@@ -181,9 +188,15 @@
                         <p><span class="glyphicon glyphicon-phone"></span>604-780-6138</p>
                     </div>
                     <div class="contact-item">
-                        <p><span class="btn btn-social-icon btn-github"></span>github.com/hansonchun</p>
+                        <p><span><img id="img-github" src="img/github.png"></span><a href="https://github.com/hansonchun">github.com/hansonchun</a></p>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="section-container" id="footer-section-container">
+            <div id="footer-section">
+                <p>Copyright(c) 2017 Hanson Chun</p>
             </div>
         </div>
 
@@ -212,7 +225,7 @@
             // Using jQuery's animate() method to add smooth page scroll
             // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
             $('html, body').animate({
-                scrollTop: $(hash).offset().top -= 100
+                scrollTop: $(hash).offset().top -= 120
             }, 800, function(){
         
                 // Add hash (#) to URL when done scrolling (default click behavior)
