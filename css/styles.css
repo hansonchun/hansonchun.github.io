@@ -59,7 +59,8 @@ nav a {
 }
 
 #bio-section-container{
-    background-color: #303030;
+    
+    background-color: #1a1a1a;
     color: white;
 }
 
@@ -94,12 +95,19 @@ nav a {
 }
 
 #projects-section-container {
+    background-image: url("../img/bg.jpg");
+    background-repeat: repeat;
     background-color:#1a1a1a;
     color: white;
 }
 
 #projects-container h1{
     text-align: center;
+}
+
+#contact-section-container {
+    background-color:#1a1a1a;
+    color: white;
 }
 
 #contact-container {
@@ -171,6 +179,7 @@ nav a {
             -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
             box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
             text-align:center;
+            background-color:#1a1a1a;
         }
 
             .timeline > li > .timeline-panel:before {
