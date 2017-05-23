@@ -33,23 +33,36 @@ img {
     width: 15px;
 }
 
-.main-nav {
+.navbar {
     background-color:white;
     z-index:999;
     width:100%;
-    text-align: center;
-    padding:33px;
     list-style-type: none;
+    text-align: center;
 }
 
-nav li {
-    display:inline;
-    padding:50px;
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar ul li {
+    display:inline-block;
+    padding:20px;
     letter-spacing:2px;
 }
 
 nav a {
     color:black;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: black;
 }
 
 #logo {
